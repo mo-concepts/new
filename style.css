@@ -1,0 +1,110 @@
+    #form {
+        display: grid;
+        grid-row-gap: 5px;
+        justify-items: center;
+        }
+    #form input {
+        width: 94%;
+        height: 30px;
+    }
+    #form button {
+        width: 96%;
+        height: 30px;
+    }
+    #error {
+        color: red;
+    }
+    #loginform {
+        float: right;
+    }
+    li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    #success {
+        color: rgba(0, 255, 21, 0.788);
+    }    
+    #formdiv {
+        text-align: center;
+        height: 55vh;
+        width: 400px;
+        padding-top: 30px;
+        margin-top: 10vh;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 0px 4px 4px hsl(240, 9%, 98%);
+    }
+    .gallery {
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .galleryform {
+        text-align: center;
+        width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .galleryform input {
+        height: 30px;
+        width: 200px;
+        margin-top: 10px;
+        border-radius: 20px;
+        text-indent: 10px;
+    }
+    .galleryform button {
+        height: 30px;
+        width: 100px;
+        margin-top: 10px;
+        border-radius: 20px;
+    }
+    .gallery-container {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .gallery-container a {
+        margin-right: 2.5vw;
+    }
+    .gallery-container img {
+        height: 15vw;
+        width: 15vw;
+    }
+    body {
+        background-color: hsl(240, 73%, 7%);
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #main-container {
+        text-align: center;
+        padding-top: 50px;
+    }
+    @media (max-width: 100px) {
+        .gallery h2 {
+            font-size: 20px;
+        }
+        .galleryform h2 {
+            font-size: 20px;
+        }
+    }
+    #profile {
+        width: 300px;
+        height: 60px;
+        display: grid;
+        grid-template-columns: 60px 1fr;
+        grid-column-gap: 5px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 4px 4px hsl(240, 9%, 98%);
+    }
+    #profile img {
+        width: 50px;
+        height: 50px;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
